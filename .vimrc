@@ -61,3 +61,7 @@ set shiftwidth=4    " Indents will have a width of 4
 set softtabstop=4   " Sets the number of columns for a TAB
 
 set expandtab       " Expand TABs to spaces
+" 禁止生成各种临时文件或者备份
+set noundofile
+set nobackup
+set noswapfile
